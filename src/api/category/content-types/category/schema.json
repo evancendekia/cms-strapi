@@ -11,11 +11,9 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "articles": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::article.article",
-      "mappedBy": "categories"
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
     },
     "name": {
       "type": "string"
@@ -29,6 +27,12 @@
         "videos",
         "audios"
       ]
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::article.article",
+      "mappedBy": "categories"
     }
   }
 }
