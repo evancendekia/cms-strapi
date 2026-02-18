@@ -30,6 +30,16 @@
         "audios"
       ]
     },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
     "author": {
       "type": "relation",
       "relation": "manyToOne",
