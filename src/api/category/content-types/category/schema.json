@@ -18,6 +18,9 @@
     "name": {
       "type": "string"
     },
+    "Description": {
+      "type": "text"
+    },
     "banner": {
       "type": "media",
       "multiple": false,
